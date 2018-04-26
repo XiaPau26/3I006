@@ -1,0 +1,2 @@
+5.3Macs: 5.6: 9.2.2 [mach==1206] [cput==0x110] [5.6.0.20040220]SntFC1079011153422D1079011890141S53705
+/x /y (~SameShape(x, y) & Between(a, x, y))/x /z (Between(x, b, z) & SameShape(x, b) & SameShape(x, b) & SameCol(b , c ) & Dodec(c)) ~/x (RightOf(x, f) | FrontOf(x, f))@x ((SameShape(x, b) & x # b & ~Adjoins(x, b)) $ x = e)@x @y ((Adjoins(x, a) & Adjoins(x, f) & Adjoins(y, a) & Adjoins(y, f) & FrontOf(x,y)) $ y = d)

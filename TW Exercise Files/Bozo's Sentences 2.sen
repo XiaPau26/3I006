@@ -1,0 +1,12 @@
+6.0macs:Mac OS X10.4.1SntP17a = da = uu = u@x @y (Cube(x) & Cube(y) $ /z Between(z, x, y))@x (Cube(x) & Small(x) $ /y Cube(y) & BackOf(y, x))
+; Bozo wants to say that all small cubes have a cube in back of them./x /a (x # a)
+; Bozo is trying to say that there are at least two blocks in the world.Cube(x) $ ~Medium(x)
+; Bozo would like to say that no cubes are medium.@x @y (Cube(x) & Cube(v) & ~ SameSize(x  y) $ 
+                       /z Tet(z) & Between(z  x  y))
+; Help Bozo say that cubes of different sizes have a tetrahedron between them.@x (((Tet(x) & Large(x) & Small(y))) $ FrontOf(y, x))/x, y(Dodec(x) & Dodec(y) & Smaller(x, y))@x ((Medium(x)) & Cube(x) $ Tet(x))
+; Bozo wants to say that all medium cubes are tetrahedra./x /y Cube(x) & Cube(y) & Between( , y, x)  & @z Between(z, y, x) $ b = z
+; Help Bozo say that there are two cubes that have only b between them.@x ~/ Adjoins(x, y)/x ~(Cube x)@x (Tet(x) $ Large(x) $ ~/y BackOf(y, x))
+; There are two different ways of adding 
+; parentheses that can turn this into a sentence,
+; but only one way will make the sentence true.Cube(a) % Tet(b) % Cube(c)@x(Tet(x) $ FrontOf(b,x))
+; Bozo is trying to say that b is in front of all other tetrahedra.s=196194;

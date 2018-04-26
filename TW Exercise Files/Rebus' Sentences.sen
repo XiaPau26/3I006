@@ -1,0 +1,2 @@
+5.3Macs: 5.6: 9.2.2 [mach==1206] [cput==0x110] [5.6.0.20040220]SntFC1079003478514D1079003599691D1079003602233D1079004547834S95346
+Cube(a) & Cube(b) & Cube(c)Dodec(e) & Dodec(f)LeftOf(a, b) $ (LeftOf(e, f) | LeftOf(f, e))Between(a, b, c)~Adjoins(e, f)SameCol(b, e) | SameCol(c, e)

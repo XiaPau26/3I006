@@ -1,0 +1,2 @@
+5.3Macs: 5.6: 9.2.2 [mach==1206] [cput==0x110] [5.6.0.20040220]SntFC1079013034002D1079013275842C1079013695665D1079013704290D1079013707832S1158610
+@x /y SameSize(x, y)@x (Tet(x) $ ~/z (Medium(z) | Larger(x,z)))@x @y (x # y % (/z SameCol(z, x) & @u Small(u)))/x /y /z (Between(x, y, z) & Dodec(x) & @w Larger(w,  x))/y @x /z (BackOf(x, z) & RightOf(y, z))
